@@ -8,54 +8,44 @@ const poppins = Poppins({
 
 const faqItems = [
   {
-    question: "Funciona pra quem ta comecando do zero?",
+    question: "Funciona para quem está começando do zero?",
     answer:
-      "Nada de achismo. Relatorio individual mostra sua nota subindo (ou caindo) e o que fazer para corrigir agora.",
-  },
-  {
-    question: "Serve so pra quem quer Medicina?",
-    answer:
-      "Provavelmente o problema nao foi voce, foi o metodo. Aqui voce nao fica perdido na multidao. Turma pequena, acompanhamento individual e revisoes direcionadas para suas dificuldades especificas.",
-  },
-  {
-    question: "O foco e so ENEM?",
-    answer:
-      "Nao. O conteudo cobre todos os vestibulares e o ENEM. Se seu objetivo e Medicina, Engenharia, Direito ou qualquer outro curso, o Acaiaca prepara voce para passar.",
+      "Sim. O curso é estruturado para fortalecer base e desenvolver estratégia.",
   },
   {
     question: "Consigo conciliar com escola ou trabalho?",
     answer:
-      "Sim. Trabalhamos tanto com ENEM quanto com vestibulares especificos. O cronograma inclui os temas que caem nas principais provas da regiao.",
+      "Sim. As aulas são noturnas, das 18h30 às 22h30.",
   },
   {
-    question: "Existe plantao de duvidas?",
+    question: "O foco é só ENEM?",
     answer:
-      "Sim. O cronograma e flexivel e voce monta de acordo com sua rotina. Nao e um curso engessado onde todos fazem tudo igual. Voce adapta conforme sua disponibilidade.",
+      "O foco principal é incidência ENEM, mas o conteúdo também prepara para vestibulares tradicionais.",
   },
   {
-    question: "As redacoes sao corrigidas por IA?",
+    question: "Serve só para Medicina?",
     answer:
-      "Voce faz um diagnostico inicial, a gente identifica seus pontos fortes e fracos, e montamos um plano semanal com foco no que voce mais precisa. Conforme evolui, o cronograma se ajusta.",
+      "Não. É para qualquer curso superior.",
   },
   {
     question: "Como funcionam os simulados com TRI?",
     answer:
-      "Nao. Professores de verdade corrigem competencia por competencia e comentam cada erro. Voce recebe feedback especifico, nao um comentario generico de robo.",
+      "Utilizam o mesmo modelo estatístico do ENEM. A nota considera dificuldade das questões e coerência das respostas.",
   },
   {
-    question: "Existe desconto para Jovem Aprendiz?",
+    question: "As redações são corrigidas por IA?",
     answer:
-      "Voce tem clareza do que estudar cada dia, revisoes programadas nos momentos certos, simulados mensais para medir evolucao e professores que acompanham seu progresso de perto.",
+      "Não. São corrigidas por professores especialistas em Letras.",
   },
   {
-    question: "Em quanto tempo vejo resultado?",
+    question: "Existe plantão de dúvidas?",
     answer:
-      "Depende do seu ponto de partida e objetivo. Em media, alunos dedicados veem evolucao clara em 3 meses de estudo consistente. O acompanhamento individual acelera esse processo.",
+      "Sim, com atendimento durante o período do curso.",
   },
   {
-    question: "O que acontece se eu nao gostar do curso?",
+    question: "Onde acontecem as aulas?",
     answer:
-      "Voce tem 30 dias para testar. Se achar que nao vale a pena, devolvemos 100% do investimento. Sem perguntas, sem burocracia. Basta avisar.",
+      "No Edifício Acaiaca, no centro de Belo Horizonte.",
   },
 ];
 
