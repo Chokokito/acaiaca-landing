@@ -32,4 +32,15 @@ export const testimonialsData: TestimonialData[] = [
     ],
     image: "/testimonials/marcusleandro.png",
   },
+  {
+    id: 3,
+    rating: 5,
+    studentName: "Heberth",
+    testimonial: [
+      "Tive o privilégio de fazer parte da primeira turma do Rafael em 2022, no núcleo Águia do Educafro - cursinho comunitário preparatório para o ENEM. ",
+      "Foi uma excelente experiência, as aulas eram bem preparadas e sempre conectadas com a atualidade, confesso que ciências humanas não são meu forte, porém a clareza e leveza com qual as aulas eram conduzidas me fizeram compreender melhor a filosofia e também a quebrar estigmas pessoais quanto às ciências humanas. ",
+      "Sem dúvidas certamente irá se repetir com os novos alunos e eles também serão imersos, por se tratar de um exímio professor.",
+    ],
+    image: "/testimonials/Heberth.png",
+  },
 ];
