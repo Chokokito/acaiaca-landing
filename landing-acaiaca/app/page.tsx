@@ -30,7 +30,7 @@ export default function Home() {
       <Header />
 
       <section className="mx-auto flex min-h-[70vh] w-[80vw] flex-col items-center justify-center px-6 text-center sm:px-10">
-        <h1 className="w-full pt-10 text-4xl font-clash leading-tight tracking-tight sm:text-3xl md:text-6xl lg:text-8xl">
+        <h1 className="w-full pt-10 text-2xl font-clash leading-tight tracking-tight text-balance sm:text-3xl md:text-5xl lg:text-6xl">
           A jornada para sua aprovação começa agora.
         </h1>
 

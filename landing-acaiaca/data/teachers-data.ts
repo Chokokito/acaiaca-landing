@@ -80,4 +80,21 @@ export const teachersData: TeacherData[] = [
     image: "/teachers/Luiza.png",
     ctaLabel: "GARANTIR MINHA VAGA",
   },
+  {
+    id: 5,
+    numberLabel: "05",
+    subject: "Letras & Linguística",
+    name: "Vinicius Nascimento",
+    description:
+      "Pesquisador do Poslin da UFMG, investigando a interface português-inglês. Professor de inglês para crianças e adolescentes, e de português para estrangeiros.",
+    curriculumTitle: "Currículo",
+    curriculum: [
+      "Letras-Português – Universidade Federal de Ouro Preto",
+      "Letras-inglês pela UFMG",
+      "Pesquisador do Poslin – UFMG",
+      "Professor de inglês e português para estrangeiros",
+    ],
+    image: "/teachers/vinici.png",
+    ctaLabel: "GARANTIR MINHA VAGA",
+  },
 ];

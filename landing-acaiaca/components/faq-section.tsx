@@ -14,8 +14,7 @@ const faqItems = [
   },
   {
     question: "Consigo conciliar com escola ou trabalho?",
-    answer:
-      "Sim. As aulas são noturnas, das 18h30 às 22h30.",
+    answer: "Sim. As aulas são noturnas, das 18h30 às 22h30.",
   },
   {
     question: "O foco é só ENEM?",
@@ -24,8 +23,7 @@ const faqItems = [
   },
   {
     question: "Serve só para Medicina?",
-    answer:
-      "Não. É para qualquer curso superior.",
+    answer: "Não. É para qualquer curso superior.",
   },
   {
     question: "Como funcionam os simulados com TRI?",
@@ -34,18 +32,15 @@ const faqItems = [
   },
   {
     question: "As redações são corrigidas por IA?",
-    answer:
-      "Não. São corrigidas por professores especialistas em Letras.",
+    answer: "Não. São corrigidas por professores especialistas em Letras.",
   },
   {
     question: "Existe plantão de dúvidas?",
-    answer:
-      "Sim, com atendimento durante o período do curso.",
+    answer: "Sim, com atendimento durante o período do curso.",
   },
   {
     question: "Onde acontecem as aulas?",
-    answer:
-      "No Edifício Acaiaca, no centro de Belo Horizonte.",
+    answer: "No Edifício Acaiaca, no centro de Belo Horizonte.",
   },
 ];
 
