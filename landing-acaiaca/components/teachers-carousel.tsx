@@ -130,31 +130,15 @@ const TeachersCarousel = ({ data }: TeachersCarouselProps) => {
             </div>
 
             <div className="mt-5 md:mt-6 lg:mt-auto">
-              {currentTeacher.ctaHref ? (
-                <a
-                  href={currentTeacher.ctaHref}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <Button
-                    Icon={ArrowUpRight}
-                    cn="bg-white text-[#001408] hover:bg-white/90"
-                    cnText="font-semibold"
-                    cnIcon="bg-[#001408] text-white"
-                  >
-                    {currentTeacher.ctaLabel}
-                  </Button>
-                </a>
-              ) : (
-                <Button
-                  Icon={ArrowUpRight}
-                  cn="bg-white text-[#001408] hover:bg-white/90"
-                  cnText="font-semibold"
-                  cnIcon="bg-[#001408] text-white"
-                >
-                  {currentTeacher.ctaLabel}
-                </Button>
-              )}
+              <Button
+                Icon={ArrowUpRight}
+                href={currentTeacher.ctaHref}
+                cn="bg-white text-[#001408] hover:bg-white/90"
+                cnText="font-semibold"
+                cnIcon="bg-[#001408] text-white"
+              >
+                {currentTeacher.ctaLabel}
+              </Button>
             </div>
           </div>
         </div>

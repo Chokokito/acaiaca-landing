@@ -6,6 +6,8 @@ const poppins = Poppins({
   weight: ["600"],
 });
 
+const DEFAULT_CTA_HREF = "https://forms.gle/fM1aZxtvDhqxDgBC6";
+
 interface ButtonProps {
   Icon?: React.ComponentType<{ size: number }>;
   onClick?: () => void;
@@ -13,6 +15,9 @@ interface ButtonProps {
   cn?: string;
   cnIcon?: string;
   cnText?: string;
+  href?: string;
+  target?: React.HTMLAttributeAnchorTarget;
+  rel?: string;
 }
 
 const Button = ({
@@ -22,8 +27,14 @@ const Button = ({
   cn,
   cnIcon,
   cnText,
+  href = DEFAULT_CTA_HREF,
+  target = "_blank",
+  rel,
 }: ButtonProps) => (
-  <button
+  <a
+    href={href}
+    target={target}
+    rel={rel ?? (target === "_blank" ? "noreferrer" : undefined)}
     onClick={onClick}
     className={`${poppins.className} flex w-min cursor-pointer items-center gap-2 rounded-[30px] p-1 pl-4 pr-1 text-nowrap transition sm:text-lg md:text-sm ${cn ?? ""}`}
   >
@@ -34,7 +45,7 @@ const Button = ({
     >
       {Icon ? <Icon size={20} /> : null}
     </span>
-  </button>
+  </a>
 );
 
 export default Button;

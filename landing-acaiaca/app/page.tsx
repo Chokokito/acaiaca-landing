@@ -56,6 +56,7 @@ export default function Home() {
 
           <Button
             Icon={Lightbulb}
+            href="https://wa.link/l6ne2f"
             cn="border border-white bg-transparent text-white hover:bg-white/10"
             cnText="font-semibold"
             cnIcon="bg-white/15 text-white"
