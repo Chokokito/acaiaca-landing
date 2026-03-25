@@ -99,7 +99,7 @@ const TeachersCarousel = ({ data }: TeachersCarouselProps) => {
                 src={currentTeacher.image}
                 alt={currentTeacher.name}
                 fill
-                className="object-cover"
+                className="object-cover object-top"
               />
             </div>
           </div>
